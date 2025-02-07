@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:20
 
 ENV PORT 3005
 
