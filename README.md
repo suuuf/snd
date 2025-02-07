@@ -1,14 +1,5 @@
 
 <div align="center">
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/44535256/180598361-505e938a-dff5-4845-9fb7-6f0a7b8d0682.png" alt="Logo"/>
-</p>
-
-<p align="center">
-  <a href="https://twitter.com/helloburaste">
-    <img alt="Twitter: Hello Buraste" src="https://img.shields.io/twitter/follow/helloburaste?style=social" target="_blank" />
-  </a>
-</p>
 <p style="margin-top: 0;">Dockerize your Strapi v4 backend with Next.js and Nginx Support 🚀</p>
 	</div>
 
@@ -27,15 +18,10 @@
     - [Installation](#installation)
     - [Usage](#usage)
 - [Security for Endpoints](#security-for-endpoints)
-- [Contributing](#contributing)
-- [Authors](#authors)
-- [License](#license)
 
 ## Current Status
 
 This package is currently under development and should be consider **BETA** in terms of state. We are currently accepting contributions to help develop and maintain this package.
-
-For more information on contributing please see [the contrib message below](#contributing).
 
 ##  What for?
 
@@ -102,18 +88,3 @@ docker-compose build && docker-compose up -d
 ## Security for Endpoints
 Secure all your Strapi related endpoints in Nginx, make sure to use API tokens to connect to the backend and keep this information private. The Nginx config that on the repo is for development, not production ⛔️
 
-## Contributing
-
-We are always welcome for contributions to help shape this package.
-
-If interested please feel free to email the maintainer Burak at: hello@buraste.com
-
-## Authors
-
-- Burak Ibis:
-	- Github: [@buraste](https://github.com/buraste)
-	- Twitter: [@helloburaste](https://twitter.com/helloburaste)
-
-## License
-
-See the [LICENSE](./LICENSE.md) file for licensing information.
